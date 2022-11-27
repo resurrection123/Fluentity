@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Ulitity */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.border-solid-white{
+    border: 1px solid white;
+}
+.btn-green{
+    background-color: #7cbb02;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+section{
+    padding: 80px 0;
+}
+/* Ulitity */
+header{
+    height: 80vh;
+    background-color: #0d325a;
+    background-image: url("../img/background-header.png");
+    background-position: 120% bottom;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.helper{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+.helper a{
+    padding: 15px;
+    border-radius: 10px;
+}
+header .header-top{
+    padding-top: 15px;
+}
+header .header-top .navbar {
+    line-height: 45px;
+}
+header .header-top .navbar ul{
+    list-style: none;
+    color: white;
+}
+header .header-top .navbar ul li{
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+header .header-top .navbar .nav-menu{
+    margin-left: 20px;
+}
+header .header-top .navbar .nav-menu ul li:hover{
+    background-color: #7cbb02;
+    cursor: pointer;
+}
+main #banner{
+    text-align: center;
+    background-color: rgb(196, 187, 187);
+    padding: 30px 0;
+}
+main #banner h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+main  span{
+    color: rgb(95, 69, 69);
+    font-size: 22px;
+    font-weight: bold;
+}
+header .header-bottom .information-header{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    color: white;
+    font-size: 30px;
+}
+header .header-bottom .information-header button,
+footer button{
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+}
+#service .wrapp .box{
+    width: calc(100% / 3 - 30px);
+    font-size: 18px;
+    text-align: center;
+}
+#service{
+    border-bottom: 1px solid black;
+}
+#service .wrapp .box .top-box {
+    font-size: 25px;
+    color:#7cbb02 ;
+}
+#service .wrapp .box:nth-child(2) {
+    margin: 0 30px;
+}
+#service .wrapp .box .top-box {
+    height: 300px;
+    margin-bottom: 10px;
+}
+#service .wrapp .box .top-box img{
+    height: 200px;
+}
+#service .wrapp .box p{
+    color: grey;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+#service .wrapp .box hr{
+    color: grey;
+    width: 50%;
+    min-width: 20%;
+    margin: 0 auto;
+}
+#level .box{
+    width: calc(100% / 2);
+}
+#level .box h1{
+    font-size: 50px;
+}
+#level .box span{
+    color: grey;
+    display: block;
+    margin: 50px 0;
+}
+#level .box a{
+    color: rgb(39, 39, 201);
+}
+footer{
+    background-color: rgb(196, 187, 187);
+    padding: 40px 0;
+    line-height: 60px;
+}
+footer .box{
+    width: 40%;
+}
+footer span{
+    font-size: 25px;
+    font-weight: bold;
+}
+footer label{
+    font-size: 20px;
+}
+footer select{
+    background-color: transparent;
+    border: none;
+    color: grey;
+    border-bottom: 1px solid black;
+    width: 140px;
+    font-size: 22px;
+    margin:0 25px;
+    height: 25px;
+    outline: none;
+}
+footer button{
+    padding: 15px;
+    font-size: 18px;
+    margin: 0;
+    border-radius: 2px;
+}
